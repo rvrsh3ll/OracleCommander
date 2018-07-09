@@ -1,57 +1,49 @@
 ﻿using System;
-using CommandLine;
+using NDesk.Options;
 using Oracle.ManagedDataAccess.Client;
 
 namespace OracleCommander
 {
-    internal class Program
+    public class Program
     {
-        class Options
+        private static string User = null;
+        private static string Password = null;
+        private static string Hostname = null;
+        private static int Port = 1521;
+        private static string Instance = null;
+        private static string Command = null;
+
+        public static void Main(string[] args)
         {
-            [Option(Default = false, HelpText = "User to connect as.")]
-            public string User { get; set; }
-
-            [Option(Default = false, HelpText = "Password.")]
-            public string Password { get; set; }
-
-            [Option(Default = false, HelpText = "Hostname.")]
-            public string Hostname { get; set; }
-
-            [Option(Default = false, HelpText = "Port.")]
-            public string Port { get; set; }
-
-            [Option(Default = false, HelpText = "Instance name.")]
-            public string Instance { get; set; }
-
-        }
 
 
 
-        static void Main(string[] args)
-        {
-            CommandLine.Parser.Default.ParseArguments<Options>(args);
-            if (args == null)
+            OptionSet opts = new OptionSet()
+            .Add("u|user=", u => User = u)
+            .Add("password=", v => Password = v)
+            .Add("h|hostname=", h => Hostname = h)
+            .Add("p|port=", (int p) => Port = p)
+            .Add("i|instance=", i => Instance = i)
+            .Add("c|command=", c => Command = c);
+
+            try
             {
-                throw new ArgumentNullException(nameof(args));
-            }
-                
-
-            var options = new Options();
-            
-            if (options == null)
+                opts.Parse(args);
+             }
+            catch (OptionException e)
             {
-                Console.WriteLine("Hostname Required.");
-                return;
+                Console.WriteLine(e.Message);
             }
             try
             {
-                string conString = "\"User Id=\" + options.User + \";\" + \"password=\" + options.Password + \";\" + \"Data Source=\" + options.Hostname + \";\" + options.port + \"/\" + options.instance + \";\" + \"Pooling = false;\"";
-
+                
+                string conString = "User Id={0};Password={1};Data Source={2}:{3}/{4}";
+                Console.WriteLine(string.Format("Trying connection: " + conString, User, Password, Hostname, Port, Instance));
                 OracleConnection con = new OracleConnection();
                 con.ConnectionString = conString;
                 con.Open();
                 OracleCommand cmd = con.CreateCommand();
-                cmd.CommandText = "dummy command";
+                cmd.CommandText = Command;
 
                 //Execute the command 
                 OracleDataReader reader = cmd.ExecuteReader();
@@ -65,8 +57,7 @@ namespace OracleCommander
                 Console.WriteLine(e);
             }
 
-
-        }
+                   }
 
     }
 }

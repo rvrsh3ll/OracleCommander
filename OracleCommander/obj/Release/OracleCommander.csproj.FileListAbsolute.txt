@@ -9,3 +9,13 @@ C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\
 C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Release\OracleCommander.csproj.CopyComplete
 C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Release\OracleCommander.exe
 C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Release\OracleCommander.pdb
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Release\OracleCommander.exe.config
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Release\OracleCommander.exe
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Release\OracleCommander.pdb
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.csprojAssemblyReference.cache
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.csproj.CoreCompileInputs.cache
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.csproj.CopyComplete
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.exe
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.pdb
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Release\NDesk.Options.dll

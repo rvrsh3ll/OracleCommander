@@ -1,2 +1,13 @@
 C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Debug\OracleCommander.csprojAssemblyReference.cache
 C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Debug\OracleCommander.csproj.CoreCompileInputs.cache
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Debug\OracleCommander.exe.config
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Debug\OracleCommander.exe
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Debug\OracleCommander.pdb
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Debug\CommandLine.dll
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Debug\CommandLine.xml
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Debug\OracleCommander.csprojAssemblyReference.cache
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Debug\OracleCommander.csproj.CoreCompileInputs.cache
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Debug\OracleCommander.csproj.CopyComplete
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Debug\OracleCommander.exe
+C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Debug\OracleCommander.pdb
