@@ -1,0 +1,11 @@
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\bin\Release\OracleCommander.exe.config
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\bin\Release\OracleCommander.exe
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\bin\Release\OracleCommander.pdb
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\bin\Release\CommandLine.dll
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\bin\Release\CommandLine.xml
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Release\OracleCommander.csprojAssemblyReference.cache
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Release\OracleCommander.csproj.CoreCompileInputs.cache
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Release\OracleCommander.csproj.CopyComplete
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Release\OracleCommander.exe
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Release\OracleCommander.pdb

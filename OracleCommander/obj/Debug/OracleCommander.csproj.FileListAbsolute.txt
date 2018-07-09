@@ -1,0 +1,2 @@
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Debug\OracleCommander.csprojAssemblyReference.cache
+C:\Users\rvrsh3ll\Desktop\Research\projects\OracleCommander\OracleCommander\obj\Debug\OracleCommander.csproj.CoreCompileInputs.cache
