@@ -19,3 +19,10 @@ C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\Oracl
 C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.exe
 C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.pdb
 C:\Users\dade\Documents\GitHub\OracleCommander\OracleCommander\bin\Release\NDesk.Options.dll
+C:\Users\rvrsh3ll\Documents\GitHub\OracleCommander\OracleCommander\bin\Release\OracleCommander.exe.config
+C:\Users\rvrsh3ll\Documents\GitHub\OracleCommander\OracleCommander\bin\Release\OracleCommander.exe
+C:\Users\rvrsh3ll\Documents\GitHub\OracleCommander\OracleCommander\bin\Release\OracleCommander.pdb
+C:\Users\rvrsh3ll\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.csprojAssemblyReference.cache
+C:\Users\rvrsh3ll\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.csproj.CoreCompileInputs.cache
+C:\Users\rvrsh3ll\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.exe
+C:\Users\rvrsh3ll\Documents\GitHub\OracleCommander\OracleCommander\obj\Release\OracleCommander.pdb

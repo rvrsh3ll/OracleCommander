@@ -36,11 +36,11 @@ namespace OracleCommander
             }
             try
             {
-                
+
                 string conString = "User Id={0};Password={1};Data Source={2}:{3}/{4}";
-                Console.WriteLine(string.Format("Trying connection: " + conString, User, Password, Hostname, Port, Instance));
+                Console.WriteLine(string.Format("Trying connection: " + conString, User,Password,Hostname,Port,Instance));
                 OracleConnection con = new OracleConnection();
-                con.ConnectionString = conString;
+                con.ConnectionString = string.Format(conString, User, Password, Hostname, Port, Instance);
                 con.Open();
                 OracleCommand cmd = con.CreateCommand();
                 cmd.CommandText = Command;
@@ -51,7 +51,10 @@ namespace OracleCommander
                 {
                     Console.WriteLine(reader.GetString(0));
                 }
-                Console.ReadLine();
+                //Console.ReadLine();
+                con.Close();
+                con.Dispose();
+                Console.WriteLine("Disconnected");
             } catch (Exception e)
             {
                 Console.WriteLine(e);
